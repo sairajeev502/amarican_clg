@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Beginners"
+        android:text="American college App"
         android:textStyle="bold"
         android:textColor="@color/color1"
         android:textAlignment="center"

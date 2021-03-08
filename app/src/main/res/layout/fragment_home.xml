@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.fragments.Home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/homet"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@color/color1"
+        android:textSize="25sp"
+        android:textColor="#FFFF"/>
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mission and Vision Statement:"
+        android:layout_below="@+id/homet"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/color1"
+        />
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/one"
+        android:layout_marginTop="235dp"
+        android:text="Key highlights of the month:"
+        android:textColor="@color/color1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/two"
+        android:layout_marginTop="207dp"
+        android:text="Calendar"
+        android:textColor="@color/color1"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

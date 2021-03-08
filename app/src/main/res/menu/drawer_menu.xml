@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="true"
+
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/Digital_id"
+
+            android:title="@string/digital_id" />
+
+        <item
+            android:id="@+id/profile_update"
+
+            android:title="@string/profile_update" />
+
+        <item
+            android:id="@+id/rewards"
+
+            android:title="@string/rewards_and_recognition" />
+
+        <item
+            android:id="@+id/career"
+
+            android:title="@string/career_sup" />
+
+        <item
+            android:id="@+id/events"
+
+            android:title="@string/events" />
+        <item
+            android:id="@+id/contact"
+
+            android:title="@string/contact" />
+        <item
+            android:id="@+id/form"
+
+            android:title="@string/form_blog" />
+    </group>
+
+</menu>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">American_college_app</string>
+    <string name="title_activity_signup_">Signup_Activity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_registration_approval">Registration_approval</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact">Contact</string>
+    <string name="events">Events</string>
+    <string name="career_support">Career Suppfkjgort</string>
+    <string name="rewards_and_recognition">Rewards and Recognition</string>
+    <string name="profile_update">Profile Update</string>
+    <string name="digital_id">Digital ID</string>
+    <string name="home">Home</string>
+    <string name="filter">filter</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="forgot_password">forgot_password</string>
+    <string name="forgotpassword">Forgot Password</string>
+    <string name="register_yourself">register_yourself</string>
+    <string name="register_if_you_are_a_new_user">Register if you are a new user</string>
+    <string name="enter_name">enter_name</string>
+    <string name="department">Department</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+
+    <string name="country">Country</string>
+    <string name="current_designation">Current Designation</string>
+    <string name="current_organisation">Current Organisation</string>
+    <string name="submit">Submit</string>
+    <string name="form_blog">Form/Blog</string>
+    <string name="american_college">American College</string>
+    <string name="save_event">Save Event</string>
+    <string name="forgot_pwd">Forgot Password</string>
+    <string name="user_id">User ID</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="next">Next</string>
+    <string name="career_sup">Career Support</string>
+
+
+    <string name="for_any_support_queries_please_reach_out_to_cit_citchennai_net">For any support/queries please reach out to cit@citchennai.net</string>
+    <string name="career_support1">Career Support</string>
+    <string name="registration_approval">Registration Approval</string>
+    <string name="select">select</string>
+    <string name="user">User</string>
+    <string name="dept">Dept</string>
+    <string name="batch">Batch</string>
+    <string name="sex">Sex</string>
+    <string name="dob">DOB</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="name">Name</string>
+    <string name="approve">APPROVE</string>
+</resources>

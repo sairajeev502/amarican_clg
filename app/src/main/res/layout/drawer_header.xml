@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="270dip"
+    android:background="@color/color1"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imgDrawerImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_clg"
+        android:layout_marginTop="48dip"
+        android:layout_marginLeft="15dip"/>
+
+    <TextView
+        android:id="@+id/txtDrawerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="12dip"
+        android:layout_marginLeft="15dip"
+        android:clickable="true"
+
+        android:textStyle="bold"
+        android:text="@string/american_college"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"/>
+
+
+</LinearLayout>

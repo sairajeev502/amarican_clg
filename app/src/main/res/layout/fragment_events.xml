@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fragments.Events"
+    android:background="@color/colorPrimary">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Events"
+        android:textColor="@color/color1"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="40sp"/>
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:id="@+id/cal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#FFFFFF"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_event"
+        android:layout_marginTop="500dp"
+        android:textSize="15sp" />
+
+</RelativeLayout>

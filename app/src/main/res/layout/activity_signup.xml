@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rlRegister"
+            android:background="@color/colorPrimary">
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:text="New User Registration"
+                android:textStyle="bold"
+                android:textColor="@color/color1"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:layout_marginLeft="12dip"
+                android:background="@color/color2"
+                android:layout_marginTop="30dip"
+                android:layout_marginRight="12dip"
+                android:hint="User ID/Mobile Number"
+                android:textAlignment="center"
+                android:padding="10dip"
+                android:singleLine="true"
+
+                android:drawableLeft="@drawable/ic_action_phone"
+                android:drawablePadding="3dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user"
+                android:background="@color/color2"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:drawableLeft="@drawable/ic_action_password"
+                android:drawablePadding="3dp"
+                android:maxLines="1"
+
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:padding="10dip"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+
+            <EditText
+                android:id="@+id/rpwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color2"
+                android:layout_below="@+id/pwd"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:maxLength="10"
+                android:drawableLeft="@drawable/ic_action_password"
+                android:textAlignment="center"
+                android:drawablePadding="3dp"
+                android:maxLines="1"
+                android:hint="Re-enter Password"
+                android:inputType="textPassword"
+                android:padding="10dip"
+                android:singleLine="true"
+
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color2"
+                android:layout_below="@+id/rpwd"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+
+                android:drawableLeft="@drawable/ic_action_person"
+                android:drawablePadding="3dp"
+                android:hint="Name"
+                android:textAlignment="center"
+                android:padding="10dip"
+                android:singleLine="true"
+
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="match_parent"
+                android:background="@color/color2"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:hint="Date of Birth"
+                android:inputType="date"
+                android:padding="10dip"
+                android:maxLength="6"
+                android:drawableLeft="@drawable/ic_dob"
+                android:textAlignment="center"
+
+
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/gen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color2"
+                android:layout_below="@+id/dob"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:hint="Gender"
+                android:padding="10dip"
+                android:singleLine="true"
+                android:maxLength="6"
+
+                android:drawableLeft="@drawable/ic_gen"
+                android:textAlignment="center"
+                android:drawablePadding="3dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+            <EditText
+                android:id="@+id/batch"
+                android:layout_width="match_parent"
+                android:background="@color/color2"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gen"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:hint="Batch"
+
+                android:padding="10dip"
+                android:maxLength="6"
+                android:drawableLeft="@drawable/ic_batch"
+                android:textAlignment="center"
+
+
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+            <EditText
+                android:id="@+id/dept"
+                android:layout_width="match_parent"
+                android:background="@color/color2"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/batch"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:hint="@string/department"
+
+                android:padding="10dip"
+                android:maxLength="6"
+                android:drawableLeft="@drawable/ic_dept"
+                android:textAlignment="center"/>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dept"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="101dp"
+                android:layout_marginRight="12dip"
+                android:background="@color/colorPrimaryDark"
+                android:text="SignUp"
+                android:textAllCaps="false"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</ScrollView>

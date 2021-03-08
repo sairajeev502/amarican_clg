@@ -1,0 +1,258 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fragments.Profile_update">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/rlRegister"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text2"
+
+                android:layout_marginTop="0dp"
+                android:gravity="center_horizontal"
+                android:text="@string/profile_update"
+                android:textColor="#FFFFFF"
+                android:background="@color/color1"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/user"
+                android:layout_width="399dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text2"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="12dip"
+                android:background="@color/color2"
+                android:drawableLeft="@drawable/ic_action_phone"
+                android:drawablePadding="3dp"
+                android:hint="User ID/Mobile Number"
+                android:padding="10dip"
+
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:background="@color/color2"
+
+                android:drawableLeft="@drawable/ic_action_person"
+                android:drawablePadding="3dp"
+                android:hint="Name"
+                android:padding="10dip"
+                android:singleLine="true"
+                android:textAlignment="center"
+
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:background="@color/color2"
+                android:drawableLeft="@drawable/ic_dob"
+                android:hint="Date of Birth"
+                android:inputType="date"
+
+                android:padding="10dip"
+                android:textAlignment="center"
+
+
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/gen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dob"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:background="@color/color2"
+                android:drawableLeft="@drawable/ic_gen"
+                android:drawablePadding="3dp"
+                android:hint="Gender"
+
+
+                android:padding="10dip"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/batch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gen"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:background="@color/color2"
+                android:drawableLeft="@drawable/ic_batch"
+
+                android:hint="Batch"
+
+                android:padding="10dip"
+                android:textAlignment="center"
+
+
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/dept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/batch"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:background="@color/color2"
+                android:drawableLeft="@drawable/ic_dept"
+
+                android:hint="@string/department"
+
+                android:padding="10dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dept"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:background="@color/color2"
+                android:drawableLeft="@drawable/ic_city"
+
+                android:hint="@string/city"
+
+                android:padding="10dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/city"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:background="@color/color2"
+                android:drawableLeft="@drawable/ic_city"
+
+                android:hint="@string/state"
+
+                android:padding="10dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/state"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:background="@color/color2"
+                android:drawableLeft="@drawable/ic_country"
+
+                android:hint="@string/country"
+
+                android:padding="10dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/cur_desg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/country"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:background="@color/color2"
+                android:drawableLeft="@drawable/ic_dept"
+
+                android:hint="@string/current_designation"
+
+                android:padding="10dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/cur_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cur_desg"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="6dip"
+                android:layout_marginRight="12dip"
+                android:background="@color/color2"
+                android:drawableLeft="@drawable/ic_dept"
+
+                android:hint="@string/current_organisation"
+
+                android:padding="10dip"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cur_org"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="12dip"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="12dip"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/submit"
+                android:textAllCaps="false"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>
